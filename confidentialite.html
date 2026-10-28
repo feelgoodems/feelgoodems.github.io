@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité Feel Good EMS Pubs</title>
+<meta name="description" content="Politique de confidentialité de Feel Good EMS Pubs : données Google Drive utilisées, finalité, conservation, révocation.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <h1>POLITIQUE DE CONFIDENTIALITÉ</h1>
+  <p>Feel Good EMS Pubs · dernière mise à jour : 28 octobre 2026</p>
+  <nav><a href="./">Accueil</a><a href="confidentialite.html">Politique de confidentialité</a><a href="conditions.html">Conditions d'utilisation</a></nav>
+</div></header>
+<main>
+  <p>Feel Good EMS Pubs est un outil interne de Feel Good EMS (19 chemin de la Plaine, 69390 Vourles, France), utilisé uniquement par l'équipe du studio pour préparer ses vidéos publicitaires. Il n'est pas proposé au public : seul le compte Google de Feel Good EMS l'autorise.</p>
+
+  <h2>Données Google auxquelles l'application accède</h2>
+  <ul>
+    <li><strong>Fichiers créés par l'application</strong> (<code>https://www.googleapis.com/auth/drive.file</code>) : pour déposer les vidéos publicitaires produites, avec leur planche de contrôle, leur storyboard et leur plan de montage, dans le dossier « À VALIDER » du Google Drive de Feel Good EMS. L'application ne voit que les fichiers qu'elle a elle-même créés ou ouverts.</li>
+    <li><strong>Lecture seule</strong> (<code>https://www.googleapis.com/auth/drive.readonly</code>), sur l'ordinateur du studio uniquement : pour lister et lire les vidéos et musiques du studio stockées sur ce même Google Drive, afin de préparer les montages. Aucun fichier n'est modifié, déplacé ou supprimé par cet accès.</li>
+  </ul>
+  <p>L'application ne lit pas les e-mails, les contacts, l'agenda ni aucune autre donnée du compte Google.</p>
+
+  <h2>Utilisation des données</h2>
+  <p>Les vidéos et musiques lues servent uniquement à monter les publicités de Feel Good EMS. Ces publicités sont déposées dans « À VALIDER » pour une validation humaine. <strong>Rien n'est publié automatiquement.</strong></p>
+
+  <h2>Partage et sous-traitants</h2>
+  <p>Le montage automatique s'exécute sur des serveurs temporaires de GitHub Actions. Les fichiers y sont copiés le temps du montage, puis supprimés à la fin de chaque exécution. Le studio utilise aussi l'assistant d'IA Claude (Anthropic) pour piloter le montage : des images extraites des vidéos peuvent lui être transmises à cette seule fin.</p>
+  <p>Les données obtenues via les API Google ne sont ni vendues, ni partagées à des fins publicitaires, ni utilisées pour entraîner des modèles d'IA généraux.</p>
+  <p>L'utilisation et le transfert à toute autre application des informations reçues des API Google respectent les <a href="https://developers.google.com/terms/api-services-user-data-policy">Règles relatives aux données utilisateur des services API Google</a>, y compris les exigences d'utilisation limitée (<em>Limited Use</em>).</p>
+
+  <h2>Conservation et sécurité</h2>
+  <p>Les autorisations d'accès (jetons) sont conservées :</p>
+  <ul>
+    <li>chiffrées dans les secrets du dépôt privé GitHub de Feel Good EMS ;</li>
+    <li>dans la configuration de l'ordinateur du studio.</li>
+  </ul>
+  <p>Elles ne sont jamais publiées. Les copies temporaires des vidéos sont supprimées après chaque montage. Les publicités produites restent dans le Google Drive de Feel Good EMS.</p>
+
+  <h2>Révocation et suppression</h2>
+  <p>L'accès de l'application peut être retiré à tout moment depuis <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Pour toute question ou demande de suppression : <a href="mailto:contact@feelgoodems.fr">contact@feelgoodems.fr</a>.</p>
+</main>
+<footer>Feel Good EMS · 19 chemin de la Plaine, 69390 Vourles, France · <a href="mailto:contact@feelgoodems.fr">contact@feelgoodems.fr</a></footer>
+</body>
+</html>
